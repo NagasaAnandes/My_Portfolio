@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        secground: "var(--secground)",
+      },
+      fontFamily: {
+        merriweather: "var(--font-Merriweather)",
       },
     },
   },

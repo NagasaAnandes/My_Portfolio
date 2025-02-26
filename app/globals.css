@@ -3,19 +3,51 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #F8F8F8;
+  --foreground: #08024F;
+  --secground: #8B0000;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #08024F;
+    --foreground: #F8F8F8;
+  }
+} */
+
+
+@keyframes floating {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
   }
 }
 
+.animate-floating {
+  animation: floating 3s ease-in-out infinite;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 30px !important;
+  /* Atur lebar panah */
+  height: 30px !important;
+  /* Atur tinggi panah */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px !important;
+  /* Atur ukuran ikon panah */
+}
+
 body {
-  color: var(--foreground);
+  color: var(--foreground), var(--secground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--merriweather);
 }
