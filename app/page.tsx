@@ -7,11 +7,11 @@ import ProjectSection from "./components/ProjectSection";
 import ContactSection from "./components/ContactSection";
 
 const sections = [
-  { title: "Hero Section", bgColor: "bg-background", content: <HeroSection /> },
-  { title: "About Section", bgColor: "bg-background", content: <AboutSection /> },
-  { title: "Skill Section", bgColor: "bg-background", content: <SkillSection /> },
-  { title: "Project Section", bgColor: "bg-background", content: <ProjectSection /> },
-  { title: "Contact Section", bgColor: "bg-foreground", content: <ContactSection /> },
+  { bgColor: "bg-background", content: <HeroSection /> },
+  { bgColor: "bg-background", content: <AboutSection /> },
+  { bgColor: "bg-background", content: <SkillSection /> },
+  { bgColor: "bg-background", content: <ProjectSection /> },
+  { bgColor: "bg-foreground", content: <ContactSection /> },
 ];
 
 export default function Home() {

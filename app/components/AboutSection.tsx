@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { Typewriter } from "react-simple-typewriter";
+import { Download } from "lucide-react";
 import casualPict from "../../public/assets/CasualPict.webp";
 
 const AboutSection = () => {
@@ -37,23 +38,22 @@ const AboutSection = () => {
                         />
                     </h2>
                     <h3 className="text-lg sm:text-xl mb-4">
-                        I'm <span className="font-bold">Nagasa Anandes Putra Ramadhan</span>, <br className="hidden md:inline" />
+                        I&apos;m <span className="font-bold">Nagasa Anandes Putra Ramadhan</span>, <br className="hidden md:inline" />
                         a <span className="font-bold">frontend developer</span> based in <span className="font-bold">Indonesia.</span> 💻
                     </h3>
                     <p className="text-sm sm:text-base leading-relaxed">
-                        I'm a web developer who’s always excited to learn and grow. <br className="hidden md:inline" />
+                        I&apos;m a web developer who&apos;s always excited to learn and grow. <br className="hidden md:inline" />
                         I love creating digital solutions that can make a real impact, <br className="hidden md:inline" />
                         and I enjoy working both independently and with a team.
                     </p>
-
-                    {/* Download CV Button
+                    {/* Download CV Button */}
                     <a
-                        href="/assets/CV_Nagasa_Anandes.pdf"
-                        download
-                        className="mt-6 mx-auto lg:mx-0 inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-transform duration-300 ease-in-out transform hover:scale-105"
+                        href="/CV_Nagasa_Anandes.pdf"
+                        download="CV_Nagasa_Anandes.pdf"
+                        className="mt-6 mx-auto lg:mx-0 inline-flex items-center gap-2 px-4 py-2 border-2 border-foreground text-foreground font-medium rounded-md shadow-sm hover:bg-foreground hover:text-background transition-all duration-300 w-56 text-center"
                     >
-                        Download CV
-                    </a> */}
+                        Download CV <Download size={18} />
+                    </a>
                 </div>
 
             </div>

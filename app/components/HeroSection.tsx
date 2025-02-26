@@ -11,7 +11,7 @@ const HeroSection = () => {
             {/* Name Section */}
             <div className="flex flex-col text-center lg:text-left items-center lg:items-start font-merriweather text-foreground">
                 <h1 className="font-normal text-xl sm:text-2xl lg:text-4xl mb-2 sm:mb-4">
-                    Hi, I'm <br />
+                    Hi, I&apos;m <br />
                     <span className="font-black text-2xl sm:text-4xl lg:text-6xl hover:underline transition-all duration-300">
                         Nagasa Anandes.
                     </span>
@@ -28,7 +28,7 @@ const HeroSection = () => {
                     />
                 </h2>
                 <p className="text-sm sm:text-base max-w-md">
-                    I'm a passionate Web Development student, <br className="hidden sm:inline" />
+                    I&apos;m a passionate Web Development student, <br className="hidden sm:inline" />
                     focused on creating interactive and dynamic websites.
                 </p>
             </div>

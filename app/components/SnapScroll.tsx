@@ -1,12 +1,9 @@
 'use client';
 
 import React from "react";
-import Link from "next/link";
-import { Square, Diamond } from "lucide-react";
 
 // Definisi tipe untuk sections
 interface Section {
-    title: string;
     bgColor: string;
     content: React.ReactNode;
 }
