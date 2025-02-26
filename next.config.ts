@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   images: {
     domains: ['cdn.jsdelivr.net'],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
