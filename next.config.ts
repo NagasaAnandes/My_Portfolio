@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     domains: ['cdn.jsdelivr.net'],
   },
   eslint: {
-    ignoreDuringBuilds: true,
+    ignoreDuringBuilds: false,
   },
 };
 

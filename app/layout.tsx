@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   title: "Nagasa Anandes Putra Ramadhan",
   description: "Welcome to my web portfolio",
   icons: {
-    icon: "favicon.svg", // Pakai gambar profil sebagai favicon
-    shortcut: "favicon.svg",
+    icon: "favicon.ico", // Pakai gambar profil sebagai favicon
+    shortcut: "favicon.ico",
     apple: "favicon.svg", // Untuk iOS
   }
 };
