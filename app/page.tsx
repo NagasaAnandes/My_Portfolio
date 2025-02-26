@@ -1,4 +1,3 @@
-import { title } from "process";
 import AboutSection from "./components/AboutSection";
 import HeroSection from "./components/HeroSection";
 import SkillSection from "./components/SkillSection";

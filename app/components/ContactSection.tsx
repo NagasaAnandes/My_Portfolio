@@ -30,7 +30,7 @@ const ContactSection = () => {
 
                 {/* Ikon Media Sosial */}
                 <div className=" md:justify-end space-y-2">
-                    <p className="text-lg font-semibold mb-2">Let's Connect</p>
+                    <p className="text-lg font-semibold mb-2">Let&apos;s Connect</p>
                     <div className="flex justify-center space-x-6 md:justify-end">
                         <Link href="https://github.com/NagasaAnandes" target="_blank" className="hover:text-gray-400">
                             <Github size={24} />
