@@ -48,7 +48,7 @@ const AboutSection = () => {
                     </p>
                     {/* Download CV Button */}
                     <a
-                        href="/CV_Nagasa_Anandes.pdf"
+                        href="./assets/CV_Nagasa_Anandes.pdf"
                         download="CV_Nagasa_Anandes.pdf"
                         className="mt-6 mx-auto lg:mx-0 inline-flex items-center gap-2 px-4 py-2 border-2 border-foreground text-foreground font-medium rounded-md shadow-sm hover:bg-foreground hover:text-background transition-all duration-300 w-56 text-center"
                     >
