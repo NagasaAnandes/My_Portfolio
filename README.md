@@ -7,7 +7,7 @@
 
 Modern and interactive portfolio website powered by **Next.js 16** and **TailwindCSS**, showcasing my projects, skills, and professional profile.
 
-![Portfolio Preview](https://raw.githubusercontent.com/NagasaAnandes/My_Portfolio/main/public/images/portfolio-preview.png?raw=1)
+[![Portfolio Preview](https://raw.githubusercontent.com/NagasaAnandes/My_Portfolio/main/public/images/portfolio-preview.png?raw=1)](https://nagasaanandes-portfolio.vercel.app/)
 
 ## ✨ Features
 
