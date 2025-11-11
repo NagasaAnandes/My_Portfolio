@@ -1,13 +1,14 @@
-import { About } from "@/components/About";
-import { Contact } from "@/components/Contact";
-import FloatingShapes from "@/components/FloatingShapes";
-import { Footer } from "@/components/Footer";
-import { Hero } from "@/components/Hero";
-import { Navbar } from "@/components/Navbar";
-import { Projects } from "@/components/Projects";
-import { Skills } from "@/components/Skills";
-import { ThemeProvider } from "@/components/ThemeContext";
-import { ThemeToggle } from "@/components/ThemeToggle";
+import { About } from "../components/About";
+import { Contact } from "../components/Contact";
+import FloatingShapes from "../components/FloatingShapes";
+import { Footer } from "../components/Footer";
+import { Hero } from "../components/Hero";
+import { Navbar } from "../components/Navbar";
+import { Projects } from "../components/Projects";
+import { Skills } from "../components/Skills";
+import { ThemeProvider } from "../components/ThemeContext";
+import { ThemeToggle } from "../components/ThemeToggle";
+
 
 
 export default function App() {
