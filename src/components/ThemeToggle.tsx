@@ -30,8 +30,8 @@ export function ThemeToggle() {
 
             {/* Glow Effect */}
             <div className={`absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${theme === "dark"
-                    ? "shadow-[0_0_20px_rgba(250,204,21,0.3)]"
-                    : "shadow-[0_0_20px_rgba(37,99,235,0.3)]"
+                ? "shadow-[0_0_20px_rgba(250,204,21,0.3)]"
+                : "shadow-[0_0_20px_rgba(37,99,235,0.3)]"
                 }`} />
         </motion.button>
     );
