@@ -45,7 +45,7 @@ export function About() {
 
                                     <div className="flex items-center gap-3">
                                         <div className="w-12 h-12 bg-linear-to-br from-[#4169e1] to-[#1e90ff] rounded-lg flex items-center justify-center">
-                                            <span className="text-white">50+</span>
+                                            <span className="text-white">10+</span>
                                         </div>
                                         <div>
                                             <p className="theme-text-primary">Projects</p>
