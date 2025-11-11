@@ -18,13 +18,13 @@ const skillCategories = [
         category: "Backend",
         icon: Server,
         color: "from-[#4169e1] to-[#1e90ff]",
-        skills: ["PHP", "Laravel", "Python", "Golang"],
+        skills: ["PHP", "Laravel", "Python"],
     },
     {
         category: "Database",
         icon: Database,
         color: "from-[#16a085] to-[#1abc9c]",
-        skills: ["MySQL", "MongoDB"],
+        skills: ["MySQL"],
     },
     {
         category: "Mobile",
@@ -39,16 +39,16 @@ const allSkills = [
     { name: "CSS", color: "from-[#264de4] to-[#2965f1]", icon: "CSS" },
     { name: "JavaScript", color: "from-[#f0db4f] to-[#f7df1e]", icon: "JavaScript" },
     { name: "React.js", color: "from-[#61dafb] to-[#00d8ff]", icon: "React" },
-    { name: "Next.js", color: "from-[#ffffff] to-[#e0e0e0]", icon: "NextJS" },
+    { name: "Next.js", color: "from-[#050505] to-[#e0e0e0]", icon: "NextJS" },
     { name: "TailwindCSS", color: "from-[#06b6d4] to-[#0891b2]", icon: "TailwindCSS" },
     { name: "Laravel", color: "from-[#ff2d20] to-[#dc143c]", icon: "Laravel" },
     { name: "PHP", color: "from-[#777bb4] to-[#8892bf]", icon: "PHP" },
     { name: "Python", color: "from-[#3776ab] to-[#ffd43b]", icon: "Python" },
     { name: "MySQL", color: "from-[#00758f] to-[#f29111]", icon: "MySQL" },
-    { name: "MongoDB", color: "from-[#4db33d] to-[#3fa037]", icon: "MongoDB" },
+    // { name: "MongoDB", color: "from-[#4db33d] to-[#3fa037]", icon: "MongoDB" },
     { name: "Flutter", color: "from-[#02569b] to-[#0468d7]", icon: "Flutter" },
     { name: "Kotlin", color: "from-[#7f52ff] to-[#b125ea]", icon: "Kotlin" },
-    { name: "Golang", color: "from-[#00add8] to-[#00a29c]", icon: "Golang" },
+    // { name: "Golang", color: "from-[#00add8] to-[#00a29c]", icon: "Golang" },
 ];
 
 export function Skills() {

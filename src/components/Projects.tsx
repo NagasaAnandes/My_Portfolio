@@ -8,53 +8,56 @@ import { ImageWithFallback } from "../lib/imageWithFallback";
 
 const projects = [
     {
-        title: "E-Commerce Platform",
-        description: "Modern e-commerce solution with advanced filtering and seamless checkout experience",
-        tags: ["React.js", "Next.js", "TailwindCSS", "MongoDB"],
-        image: "https://images.unsplash.com/photo-1658297063569-162817482fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDF8fHx8MTc2MjIxMDM0Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        title: "Revou Software Engineer Training",
+        description: "Comprehensive training platform for aspiring software engineers with hands-on projects",
+        tags: ["CSS", "JavaScript", "HTML"],
+        image: "/images/Revou-Training.png",
         color: "from-[#dc143c] to-[#ff1744]",
         type: "web",
+        github: "https://github.com/NagasaAnandes/Revou-Software-Engineer-Training.git",
     },
     {
-        title: "Task Management App",
-        description: "Collaborative task manager with real-time updates and team synchronization",
-        tags: ["React.js", "Laravel", "MySQL", "TailwindCSS"],
-        image: "https://images.unsplash.com/photo-1723505613384-b55168b80568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9kdWN0aXZpdHklMjBhcHB8ZW58MXx8fHwxNzYyMTU0MTA1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        title: "Educational App",
+        description: "Interactive mobile application for learning languages with gamified lessons",
+        tags: ["Flutter"],
+        image: "/images/Edu-Prima.png",
         color: "from-[#4169e1] to-[#1e90ff]",
-        type: "web",
+        type: "mobile",
+        github: "https://github.com/NagasaAnandes/flutter_eduprima.git",
     },
     {
-        title: "Portfolio CMS",
-        description: "Content management system for creative professionals with drag-and-drop builder",
-        tags: ["Next.js", "MongoDB", "TailwindCSS"],
-        image: "https://images.unsplash.com/photo-1758411897888-3ca658535fdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBkYXNoYm9hcmR8ZW58MXx8fHwxNzYyMjAzNTk4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+        title: "Portfolio Website",
+        description: "Personal portfolio showcasing projects, skills, and experience with a modern design",
+        tags: ["Next.js", "TailwindCSS"],
+        image: "/images/Portfolio.png",
         color: "from-[#9b59b6] to-[#8e44ad]",
         type: "web",
+        github: "https://github.com/NagasaAnandes/My_Portfolio.git",
     },
-    {
-        title: "Social Media Dashboard",
-        description: "Analytics dashboard for social media management with real-time metrics",
-        tags: ["React.js", "Golang", "PostgreSQL"],
-        image: "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhbmFseXRpY3MlMjBkYXNoYm9hcmR8ZW58MXx8fHwxNzYyMTQ2MjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        color: "from-[#16a085] to-[#1abc9c]",
-        type: "web",
-    },
-    {
-        title: "Mobile Banking App",
-        description: "Secure mobile banking application with intuitive UX and biometric authentication",
-        tags: ["Flutter", "Kotlin", "Firebase"],
-        image: "https://images.unsplash.com/photo-1681826291722-70bd7e9e6fc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBiYW5raW5nfGVufDF8fHx8MTc2MjE3MjA5OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        color: "from-[#e74c3c] to-[#c0392b]",
-        type: "mobile",
-    },
-    {
-        title: "Real Estate Platform",
-        description: "Property listing platform with virtual tours and advanced search capabilities",
-        tags: ["Next.js", "PHP", "MySQL", "TailwindCSS"],
-        image: "https://images.unsplash.com/photo-1652878530627-cc6f063e3947?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlJTIwd2Vic2l0ZXxlbnwxfHx8fDE3NjIxOTU4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-        color: "from-[#f39c12] to-[#e67e22]",
-        type: "web",
-    },
+    // {
+    //     title: "Social Media Dashboard",
+    //     description: "Analytics dashboard for social media management with real-time metrics",
+    //     tags: ["React.js", "Golang", "PostgreSQL"],
+    //     image: "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhbmFseXRpY3MlMjBkYXNoYm9hcmR8ZW58MXx8fHwxNzYyMTQ2MjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    //     color: "from-[#16a085] to-[#1abc9c]",
+    //     type: "web",
+    // },
+    // {
+    //     title: "Mobile Banking App",
+    //     description: "Secure mobile banking application with intuitive UX and biometric authentication",
+    //     tags: ["Flutter", "Kotlin", "Firebase"],
+    //     image: "https://images.unsplash.com/photo-1681826291722-70bd7e9e6fc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBiYW5raW5nfGVufDF8fHx8MTc2MjE3MjA5OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    //     color: "from-[#e74c3c] to-[#c0392b]",
+    //     type: "mobile",
+    // },
+    // {
+    //     title: "Real Estate Platform",
+    //     description: "Property listing platform with virtual tours and advanced search capabilities",
+    //     tags: ["Next.js", "PHP", "MySQL", "TailwindCSS"],
+    //     image: "https://images.unsplash.com/photo-1652878530627-cc6f063e3947?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlJTIwd2Vic2l0ZXxlbnwxfHx8fDE3NjIxOTU4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    //     color: "from-[#f39c12] to-[#e67e22]",
+    //     type: "web",
+    // },
 ];
 
 type FilterType = "all" | "web" | "mobile";
@@ -275,10 +278,16 @@ function ProjectCard({ project, isHovered, large = false }: { project: typeof pr
                             <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
                             View Live
                         </button>
-                        <button className="flex items-center justify-center gap-2 px-3 sm:px-4 py-2 sm:py-2.5 theme-bg-glass backdrop-blur-sm theme-border theme-text-primary rounded-lg theme-bg-glass-hover transition-colors duration-300 text-xs sm:text-sm" style={{ borderWidth: '1px' }}>
+                        <a
+                            href={project.github}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-center gap-2 px-3 sm:px-4 py-2 sm:py-2.5 theme-bg-glass backdrop-blur-sm theme-border theme-text-primary rounded-lg theme-bg-glass-hover transition-colors duration-300 text-xs sm:text-sm"
+                            style={{ borderWidth: '1px' }}
+                        >
                             <Github className="w-3 h-3 sm:w-4 sm:h-4" />
                             Code
-                        </button>
+                        </a>
                     </motion.div>
                 </motion.div>
             </div>

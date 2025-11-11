@@ -13,22 +13,22 @@ export function Contact() {
         {
             icon: Mail,
             label: "Email",
-            value: "nagasa.anandes@example.com",
-            href: "mailto:nagasa.anandes@example.com",
+            value: "nagasa.anandes@gmail.com",
+            href: "mailto:nagasa.anandes@gmail.com",
             color: "from-[#dc143c] to-[#ff1744]",
         },
         {
             icon: Linkedin,
             label: "LinkedIn",
             value: "linkedin.com/in/nagasa-anandes",
-            href: "https://linkedin.com/in/nagasa-anandes",
+            href: "https://www.linkedin.com/in/nagasa-anandes-putra-ramadhan-428895207/",
             color: "from-[#0077b5] to-[#00a0dc]",
         },
         {
             icon: Github,
             label: "GitHub",
             value: "github.com/nagasa-anandes",
-            href: "https://github.com/nagasa-anandes",
+            href: "https://github.com/NagasaAnandes",
             color: "from-[#6e5494] to-[#8b5cf6]",
         },
     ];

@@ -35,7 +35,7 @@ export function About() {
                                 <div className="space-y-3">
                                     <div className="flex items-center gap-3">
                                         <div className="w-12 h-12 bg-linear-to-br from-[#dc143c] to-[#ff1744] rounded-lg flex items-center justify-center">
-                                            <span className="text-white">5+</span>
+                                            <span className="text-white">1+</span>
                                         </div>
                                         <div>
                                             <p className="theme-text-primary">Years</p>
@@ -133,7 +133,7 @@ export function About() {
                                 className="pt-6"
                             >
                                 <a
-                                    href="/cv-nagasa-anandes.pdf"
+                                    href="/cv/Nagasa_Anandes_Putra_Ramadhan.pdf"
                                     download="CV-Nagasa-Anandes.pdf"
                                     className="inline-flex items-center gap-2 px-8 py-3 bg-linear-to-r from-[#4169e1] to-[#1e90ff] text-white rounded-lg transition-all duration-300 hover:scale-105"
                                     style={{ boxShadow: `0 0 0 ${colors.glowBlue}` }}
