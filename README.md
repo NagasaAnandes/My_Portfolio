@@ -1,9 +1,13 @@
 # 🚀 Nagasa Anandes - Portfolio Website
 
+![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?logo=typescript)
+![Vercel](https://img.shields.io/badge/Deployment-Vercel-black?logo=vercel)
+
 Modern and interactive portfolio website powered by **Next.js 16** and **TailwindCSS**, showcasing my projects, skills, and professional profile.
 
-! **Live Demo**: (https://nagasaanandes-portfolio.vercel.app/)
-![Portfolio Preview](https://raw.githubusercontent.com/NagasaAnandes/My_Portfolio/main/public/images/Portfolio.png)
+![Portfolio Preview](https://raw.githubusercontent.com/NagasaAnandes/My_Portfolio/main/public/images/portfolio-preview.png?raw=1)
 
 ## ✨ Features
 
@@ -220,7 +224,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Nagasa Anandes Putra Ramadhan**
 - GitHub: [@NagasaAnandes](https://github.com/NagasaAnandes)
-- Portfolio: [Your Live Portfolio URL]
+- Portfolio: [Nagasa Anandes](https://nagasaanandes-portfolio.vercel.app/)
 
 ## 🙏 Acknowledgments
 
