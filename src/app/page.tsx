@@ -1,3 +1,5 @@
+"use client";
+
 import dynamic from "next/dynamic";
 import { ThemeProvider } from "../components/ThemeContext";
 import { Navbar } from "../components/Navbar";
