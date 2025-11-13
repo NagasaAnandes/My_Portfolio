@@ -5,7 +5,7 @@ import { ThemeToggle } from "../components/ThemeToggle";
 import FloatingShapes from "../components/FloatingShapes";
 import { Footer } from "../components/Footer";
 import { Hero } from "../components/Hero";
-import HomeClient from "components/HomeClient";
+import HomeClient from "../components/HomeClient";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
