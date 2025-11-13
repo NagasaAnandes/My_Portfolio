@@ -34,35 +34,11 @@ const projects = [
         type: "web",
         github: "https://github.com/NagasaAnandes/My_Portfolio.git",
     },
-    // {
-    //     title: "Social Media Dashboard",
-    //     description: "Analytics dashboard for social media management with real-time metrics",
-    //     tags: ["React.js", "Golang", "PostgreSQL"],
-    //     image: "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhbmFseXRpY3MlMjBkYXNoYm9hcmR8ZW58MXx8fHwxNzYyMTQ2MjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    //     color: "from-[#16a085] to-[#1abc9c]",
-    //     type: "web",
-    // },
-    // {
-    //     title: "Mobile Banking App",
-    //     description: "Secure mobile banking application with intuitive UX and biometric authentication",
-    //     tags: ["Flutter", "Kotlin", "Firebase"],
-    //     image: "https://images.unsplash.com/photo-1681826291722-70bd7e9e6fc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBiYW5raW5nfGVufDF8fHx8MTc2MjE3MjA5OHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    //     color: "from-[#e74c3c] to-[#c0392b]",
-    //     type: "mobile",
-    // },
-    // {
-    //     title: "Real Estate Platform",
-    //     description: "Property listing platform with virtual tours and advanced search capabilities",
-    //     tags: ["Next.js", "PHP", "MySQL", "TailwindCSS"],
-    //     image: "https://images.unsplash.com/photo-1652878530627-cc6f063e3947?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWFsJTIwZXN0YXRlJTIwd2Vic2l0ZXxlbnwxfHx8fDE3NjIxOTU4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    //     color: "from-[#f39c12] to-[#e67e22]",
-    //     type: "web",
-    // },
 ];
 
 type FilterType = "all" | "web" | "mobile";
 
-export function Projects() {
+export default function Projects() {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, margin: "-100px" });
     const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -220,7 +196,9 @@ function ProjectCard({ project, isHovered, large = false }: { project: typeof pr
                     <ImageWithFallback
                         src={project.image}
                         alt={project.title}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover rounded-xl"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        loading="lazy"
                     />
                 </motion.div>
             </div>

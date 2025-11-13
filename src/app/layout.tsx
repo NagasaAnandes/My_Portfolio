@@ -55,6 +55,33 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* 🔗 Preconnect ke origin & fonts */}
+        <link rel="preconnect" href="https://nagasaanandes-portfolio.vercel.app" />
+        <link rel="dns-prefetch" href="https://nagasaanandes-portfolio.vercel.app" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+
+        {/* ⚡ Preload CSS utama */}
+        <link rel="preload" href="/_next/static/css/app.css" as="style" />
+
+        {/* ✅ Schema.org JSON-LD */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Nagasa Anandes Putra Ramadhan",
+              url: "https://nagasaanandes-portfolio.vercel.app",
+              jobTitle: "Frontend Developer",
+              sameAs: [
+                "https://github.com/NagasaAnandes",
+                "https://linkedin.com/in/nagasa-anandes",
+              ],
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-x-hidden`}
       >

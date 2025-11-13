@@ -51,7 +51,7 @@ const allSkills = [
     // { name: "Golang", color: "from-[#00add8] to-[#00a29c]", icon: "Golang" },
 ];
 
-export function Skills() {
+export default function Skills() {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, margin: "-100px" });
     const [hoveredCategory, setHoveredCategory] = useState<string | null>(null);

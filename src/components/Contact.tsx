@@ -5,7 +5,7 @@ import { useInView } from "motion/react";
 import { useRef } from "react";
 import { Mail, Linkedin, Github, ArrowRight } from "lucide-react";
 
-export function Contact() {
+export default function Contact() {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, margin: "-100px" });
 

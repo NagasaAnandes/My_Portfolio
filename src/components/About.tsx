@@ -7,7 +7,7 @@ import { Download } from "lucide-react";
 import { useThemeColors } from "../lib/useThemeColor";
 import { useTheme } from "./ThemeContext";
 
-export function About() {
+export default function About() {
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, margin: "-100px" });
     const colors = useThemeColors();
