@@ -1,5 +1,3 @@
-"use client";
-
 import dynamic from "next/dynamic";
 import { ThemeProvider } from "../components/ThemeContext";
 import { Navbar } from "../components/Navbar";
@@ -7,13 +5,8 @@ import { ThemeToggle } from "../components/ThemeToggle";
 import FloatingShapes from "../components/FloatingShapes";
 import { Footer } from "../components/Footer";
 import { Hero } from "../components/Hero";
-
-const About = dynamic(() => import("../components/About"), { ssr: false });
-const Skills = dynamic(() => import("../components/Skills"), { ssr: false });
-const Projects = dynamic(() => import("../components/Projects"), { ssr: false });
-const Contact = dynamic(() => import("../components/Contact"), { ssr: false });
+import HomeClient from "components/HomeClient";
 import { Metadata } from "next";
-import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Home | Nagasa Anandes",
@@ -50,18 +43,7 @@ export default function App() {
         <section id="home">
           <Hero />
         </section>
-        <section id="about">
-          <About />
-        </section>
-        <section id="skills">
-          <Skills />
-        </section>
-        <section id="projects">
-          <Projects />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
+        <HomeClient />
         <Footer />
       </div>
     </ThemeProvider>
