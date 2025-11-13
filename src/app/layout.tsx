@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "../styles/globals.css";
+import "../styles/global.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -13,12 +13,38 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nagasa Anandes Putra Ramadhan",
-  description: "Portfolio of Nagasa Anandes - Software Developer and Tech Enthusiast",
+  title: "Nagasa Anandes | Front-End Developer Portfolio",
+  description: "Portfolio Nagasa Anandes | Front-End Developer React & Flutter with a focus on modern UI/UX and high performance.",
+  keywords: [
+    "Nagasa Anandes",
+    "Front-End Developer",
+    "React Developer",
+    "Flutter Developer",
+    "UI UX Designer",
+    "Portfolio",
+    "Freelancer",
+  ],
+  metadataBase: new URL("https://nagasaanandes-portfolio.vercel.app"),
+  openGraph: {
+    title: "Nagasa Anandes | Front-End Developer",
+    description: "My work and projects are in the field of React, Flutter, and interface design.",
+    url: "https://nagasaanandes-portfolio.vercel.app/",
+    siteName: "Nagasa Anandes Portfolio",
+    images: [
+      {
+        url: "/images/portfolio-preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Preview Portfolio Nagasa Anandes",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
   icons: {
-    icon: "favicon.svg",
-    shortcut: "favicon.svg",
-    apple: "favicon.svg",
+    icon: "profile.svg",
+    shortcut: "profile.svg",
+    apple: "profile.svg",
   }
 };
 
